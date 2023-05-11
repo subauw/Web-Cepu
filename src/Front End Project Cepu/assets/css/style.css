@@ -1,0 +1,88 @@
+#landing_page {
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+#txt {
+  text-align: start;
+  padding-left: 10rem;
+  padding-top: 4rem;
+}
+
+#faq_page {
+  padding-top: 5rem;
+  background-color: #ce272a;
+}
+
+#accordion {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+#search {
+  padding-left: 23rem;
+  padding-right: 23rem;
+}
+
+/* navbar */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+/* darkmode toggle */
+body.dark-mode {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* footer */
+.rotate {
+  display: inline-block;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.bg-danger {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.bg-danger:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  background-color: #ce272a;
+  z-index: -1;
+}

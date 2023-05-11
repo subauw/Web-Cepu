@@ -1,0 +1,18 @@
+#badan {
+  background-color: rgb(216, 216, 216);
+}
+
+#filter-laporan {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #ce272a;
+}
+
+#list-laporan {
+  padding-top: 5rem;
+}
+
+.img-thumbnail {
+  width: 60px;
+  height: 60px;
+}

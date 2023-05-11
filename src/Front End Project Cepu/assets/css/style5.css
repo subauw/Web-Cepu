@@ -1,0 +1,12 @@
+#main {
+  background-color: rgb(216, 216, 216);
+}
+
+.navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.img-thumbnail {
+  width: 60px;
+  height: 60px;
+}
